@@ -27,6 +27,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/ipmartnetwork/WS-Tunnel/main/w
 ```
 
 ---
+[لینک اصلی پروژه](https://github.com/erebe/wstunnel/tree/main)
+
+---
 
 ### لیست دستورات
 ```
@@ -129,6 +132,8 @@ Options:
   -h, --help
           Print help
 ```
+---
+
 
 
 
