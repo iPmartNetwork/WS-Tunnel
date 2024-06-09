@@ -401,9 +401,9 @@ check_tunnel_status() {
     # Check the status of the tunnel service
     if systemctl is-active --quiet wstunnel.service; then
         echo -e "${yellow}════════════════════════════════${rest}"
-        echo -e "${cyan}WS Tunnel ==>:${purple}[${green}running ✔${purple}]${rest}"
+        echo -e "${cyan} WS Tunnel :${purple}[${green}running ✔${purple}]${rest}"
     else
-        echo -e "${cyan}WS Tunnel ==>:${purple}[${red}Not running ✗ ${purple}]${rest}"
+        echo -e "${cyan} WS Tunnel :${purple}[${red}Not running ✗ ${purple}]${rest}"
     fi
 }
 
