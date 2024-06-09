@@ -13,7 +13,7 @@
 ## پیش نیاز
 
 
-قابل اجرا درسیتم عامل های  ("ubuntu" "debian" "centos" "fedora")
+قابل اجرا درسیتم عامل های  (ubuntu,debian,centos,fedora)
 
 ---
 ## نصب
