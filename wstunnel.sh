@@ -428,9 +428,9 @@ install_ws_termux() {
         pkg upgrade -y
         pkg update
         check_dependencies_termux
-        latest_version=$(curl -s https://api.github.com/repos/iPmartNetwoerk/WS-Tunnel/releases/latest | grep -oP '"tag_name": "\K(.*?)(?=")')
+        latest_version=$(curl -s https://api.github.com/repos/erebe/wstunnel/releases/latest | grep -oP '"tag_name": "\K(.*?)(?=")')
         wstunnel_file="wstunnel_${latest_version//v}_linux_arm64.tar.gz"
-        wget "https://github.com/iPmartNetwoerk/WS-Tunnel/releases/download/${latest_version}/${wstunnel_file}"
+        wget "https://github.com/erebe/wstunnel/releases/download/${latest_version}/${wstunnel_file}"
         tar -xvf "$wstunnel_file" > /dev/null
         chmod +x wstunnel
         mv wstunnel "$PATH/"
@@ -569,9 +569,11 @@ EOF
     echo ""
     echo -e "${purple}════════════════ MENU ════════════════"
     echo ""
-    echo -e "${purple}╠════════════════════════════════════╣${rest}"
+    echo -e "${purple}════════════════════════════════${rest}"
+    echo ""
     check_tunnel_status
-    echo -e "${purple}╠════════════════════════════════════╣${rest}"
+    echo ""
+    echo -e "${purple}════════════════════════════════${rest}"
 
     echo -e "${cyan}1. Install Ws-Tunnel"
     echo ""
