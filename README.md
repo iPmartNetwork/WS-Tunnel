@@ -30,8 +30,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/ipmartnetwork/WS-Tunnel/main/w
 [لینک اصلی پروژه](https://github.com/erebe/wstunnel/tree/main)
 
 
+[تشکر ویژه](https://github.com/Ptechgithub)
 
-[تشکر ویژه از پیمان عزیز]([n](https://github.com/Ptechgithub))
 
 ---
 
